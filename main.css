@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Comfortaa Light';
+    src: url(comfortaa.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #faf9f7;
+    user-select: none;
+}
+
+.comfortaa {
+    font-family: 'Comfortaa Light';
+}
+
+.name {
+    font-size: 2.5rem;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-color: #EAEAEA;
+    border-style: dotted;
+}
+
+.mail {
+    margin-top: 4px
+}
+
+.avatar {
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+    background-image: url(https://gravatar.loli.net/avatar/6688ab04030524f7b5a70b21859a034c?s=640);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.container {
+    width: 512px;
+    overflow-y: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin: 32px 0px;
+}
+
+.main {
+    padding: 16px;
+    padding-left: 0px;
+    padding-top: 32px;
+    padding-bottom: 0px;
+}
+
+.shadow {
+    background: #fff;
+    box-shadow: 0 6px 14px 0 #0000000a;
+    border-radius: 0.5rem;
+    z-index: 2020;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.left {
+    width: 16%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+
+.right {
+    flex-grow: 1;
+    padding-right: 32px;
+}
+
+.content {
+    padding: 32px;
+}
+
+.footer {
+    margin-top: 16px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.footer a {
+    padding: 16px;
+    width: 33%;
+    color: #667eea;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background-color: #ebf4ff;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease 0s;
+}
+
+.center {
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 16px;
+    color: #999;
+}
+
+.copyright a {
+    color: #805ad5;
+}
